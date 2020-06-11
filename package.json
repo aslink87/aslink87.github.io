@@ -1,0 +1,14 @@
+{
+  "name": "cn_website",
+  "version": "1.0.0",
+  "description": "Christian Neighbors Website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "Adam Slinkman",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
