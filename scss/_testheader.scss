@@ -1,0 +1,74 @@
+/*
+
+//Nav Bar For Full Screen
+header {
+  position: fixed;
+  padding: 90px 10px;
+  transition: 0.4sec;
+  z-index: 99;
+  width: 100%;
+  background-color: $primary-color;
+
+  .nav-tabs {
+    float: right;
+    text-align: center;
+    padding: 12px;
+  }
+}
+
+header .nav-tabs {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  color: $secondary-color;
+}
+
+ul {
+  display: inline-block;
+  list-style-type: none;
+  margin: auto;
+  overflow: hidden;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+li {
+  float: right;
+  display: inline-block;
+}
+
+header .logoBx {
+  display: inline-block;
+  align-content: center;
+  vertical-align: middle;
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+header .logoBx img {
+  height: auto;
+  width: 100%;
+  text-align: center;
+}
+
+header .branding {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 20px;
+  letter-spacing: 2px;
+}
+header .highlight {
+  color: #003768;
+  font-weight: bold;
+}
+
+.text-secondary {
+  color: $secondary-color;
+}
+
+.text-tertiary {
+  color: $tertiary-color;
+}
+
+*/
