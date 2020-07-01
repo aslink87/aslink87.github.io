@@ -4,10 +4,12 @@
   "description": "Christian Neighbors Website",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Adam Slinkman",
   "license": "ISC",
+  "homepage": "http://aslink87.github.io/cnwebsite",
   "dependencies": {
     "node-sass": "^4.14.1"
   }
