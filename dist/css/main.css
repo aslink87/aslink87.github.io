@@ -213,7 +213,7 @@ body {
   font-size: 1rem;
   line-height: 1.5; }
   body#bg-img {
-    background: url(/dist/img/banner.jpg);
+    background: url(../dist/img/banner.jpg);
     background-attachment: fixed;
     background-size: cover; }
     body#bg-img .overlay {
@@ -418,7 +418,8 @@ main {
   main .about-info {
     display: grid;
     grid-gap: 30px;
-    grid-template-areas: "bioimage bio bio" "job1 job2 job3";
+    grid-template-areas: "bioimage bio bio"
+ "job1 job2 job3";
     grid-template-columns: repeat(3, 1fr); }
     main .about-info .bio-image {
       grid-area: bioimage;
@@ -600,7 +601,11 @@ footer {
       background-repeat: no-repeat;
       background-size: 100%; }
   .about-info {
-    grid-template-areas: "bioimage" "bio" "job1" "job2" "job3";
+    grid-template-areas: "bioimage"
+ "bio"
+ "job1"
+ "job2"
+ "job3";
     grid-template-columns: 1fr; }
   .projects {
     grid-template-columns: repeat(2, 1fr); }
