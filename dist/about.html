@@ -4,6 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="nonprofit in Michigan" />
+    <meta
+      name="keywords"
+      content="non-profit, financial assistance, food bank, education, Plainwell, Allegan county, Michigan"
+    />
+    <meta name="author" content="Adam Slinkman" />
+    <meta name="robots" content="index, follow" />
+    <meta
+      name="googlebot"
+      content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+    />
+    <meta
+      name="bingbot"
+      content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+    />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Home - Christian Neighbors" />
+    <meta property="og:url" content="http://159.89.50.252/" />
+    <meta property="og:site_name" content="Christian Neighbors" />
+
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
@@ -12,11 +33,67 @@
     />
 
     <link rel="stylesheet" href="css/main.css" />
-    <title>About Me</title>
+    <title>CN Website</title>
   </head>
 
-  <body>
+  <body id="bg-img">
+    <div class="overlay"></div>
     <header>
+      <nav class="navbar bg-primary">
+        <div class="logoBx">
+          <img class="logoBx" src="../dist/img/logo_a.png" />
+        </div>
+        <h1>
+          <a href="https://www.christianneighbors.org">
+            Christian Neighbors
+          </a>
+        </h1>
+
+        <button class="btn">
+          <a href="../dist/donate.html">
+            <div class="btnTxt">Donate</div>
+          </a>
+        </button>
+
+        <ul>
+          <li class="phone">
+            <a class="phone-link" href="tel.2696854166"
+              ><i class="fas fa-phone"></i>(269)685-4166</a
+            >
+          </li>
+          <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">About</a>
+            <div class="dropdown-about">
+              <a href="about.html#mission">Mission & Oversight</a>
+              <a href="about.html#fivec">Five "C"s</a>
+              <a href="about.html#staff">Staff Directory</a>
+              <a href="mission.html">FAQ</a>
+              <a href="mission.html">Newsletter/News</a>
+              <a href="mission.html">Blog</a>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Assistance</a>
+            <div class="dropdown-about">
+              <a href="mission.html">Food</a>
+              <a href="mission.html">Financial</a>
+              <a href="mission.html">Educational</a>
+              <a href="mission.html">Veterans</a>
+              <a href="mission.html">Additional Services</a>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Support</a>
+            <div class="dropdown-about">
+              <a href="mission.html">Leaving a Legacy</a>
+              <a href="mission.html">Church Partners</a>
+              <a href="mission.html">How Can I Help</a>
+              <a href="mission.html">Food Pantry Donations</a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+
       <div class="menu-btn">
         <div class="btn-line"></div>
         <div class="btn-line"></div>
@@ -28,33 +105,33 @@
           <div class="portrait"></div>
         </div>
         <ul class="menu-nav">
-          <li class="nav-item current">
-            <a href="/dist/index.html" class="nav-link">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">
               Home
             </a>
           </li>
-          <li class="nav-item">
-            <a href="/dist/about.html" class="nav-link">
+          <li class="nav-item current">
+            <a href="about.html" class="nav-link">
               About
             </a>
           </li>
           <li class="nav-item">
-            <a href="/dist/assistance.html" class="nav-link">
+            <a href="assistance.html" class="nav-link">
               Assistance
             </a>
           </li>
           <li class="nav-item">
-            <a href="/dist/support.html" class="nav-link">
+            <a href="support.html" class="nav-link">
               Support
             </a>
           </li>
           <li class="nav-item">
-            <a href="/dist/events.html" class="nav-link">
-              Events
+            <a href="testimonies.html" class="nav-link">
+              Testimonies
             </a>
           </li>
           <li class="nav-item">
-            <a href="/dist/contact.html" class="nav-link">
+            <a href="../dist/contact.html" class="nav-link">
               Contact
             </a>
           </li>
@@ -62,63 +139,198 @@
       </nav>
     </header>
 
-    <main id="about">
+<!-- Mission And Oversight Anchor-->
+    <main id="mission">
       <h1 class="lg-heading">
-        About
-        <span class="text-secondary">Me</span>
+        Mission and Oversight
       </h1>
       <h2 class="sm-heading">
-        Let me tell you a few things...
+        Our mission it to provide local families in need with Food, Emergency Financial Assistance and skill building Education to create self-sufficiency.
       </h2>
-      <div class="about-info">
-        <img src="img/portrait.jpg" alt="John Doe" class="bio-image" />
-
-        <div class="bio">
-          <h3 class="text-secondary">BIO</h3>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt
-            magni nam nisi quae vitae? Quod molestiae ipsa autem natus eum vel
-            ducimus nulla harum voluptatem eligendi! Unde, reiciendis?
-            Praesentium, laborum.
-          </p>
-        </div>
-
-        <div class="job job-1">
-          <h3>123 Webshop</h3>
-          <h6>Full Stack Developer</h6>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-            perferendis totam enim. Nesciunt porro dolores expedita dolor
-            necessitatibus deserunt nemo.
-          </p>
-        </div>
-
-        <div class="job job-2">
-          <h3>Designers ABC</h3>
-          <h6>Front End Developer</h6>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-            perferendis totam enim. Nesciunt porro dolores expedita dolor
-            necessitatibus deserunt nemo.
-          </p>
-        </div>
-
-        <div class="job job-3">
-          <h3>Webworks</h3>
-          <h6>Graphic Designer</h6>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-            perferendis totam enim. Nesciunt porro dolores expedita dolor
-            necessitatibus deserunt nemo.
-          </p>
-        </div>
-      </div>
+      <ul>
+        <li>We are blessed to have at least 50 Volunteers serve on a weekly basis!</li>
+        <li>Christian Neighbors is a community agency serving individuals and families in Plainwell, Otsego and Martin school districts.</li>
+        <li>Christian Neighbors has been serving our community since 1983.  It is governed by an all volunteer board.</li>
+        <li>Christian Neighbors’ finances are monitored by a Finance Team made up of our treasurer, bookkeeper, CPA, and local business owners.</li>
+        <li>Christian Neighbors’ finances are raised and monitored by the Resource Development Team.</li>
+        <li>The Facilities Director and team cares for the building with which the ministry has been greatly blessed.</li>
+        <li>The Education Resource team oversees the mentoring program and classes.</li>
+        <li>Members of the board and teams are carefully selected and diversified in their makeup.</li>
+      </ul>
     </main>
 
-    <footer id="main-footer">
-      Copyright &copy; 2018
-    </footer>
+<!-- Five C's Anchor-->
+    <main id="fivec">
+      <h1 class="lg-heading">
+        Our Five "C's"
+      </h1>   
+      <h2 class="sm-heading">
+        Being Christian Neigbors
+      </h2>
+      <p>Christian Neighbors was founded in 1983 by the local churches to respond to people in need in our community. This allows the churches to minister cooperatively in ways they could not do alone. It is important to keep that long standing connection between the local Churches and Christian Neighbors. Most area churches support Christian Neighbors through their church budget, food donations and community soup suppers. Christian Neighbors stands ready to work with churches and church leaders as they refer people in need.</p>
 
-    <script src="js/main.js"></script>
+      <h2 class="sm-heading">
+        Being Community Neighbors
+      </h2>
+      <p>Christian Neighbors has become a community agency that is supported not only by Churches, but also by individuals and businesses throughout the community who realize that we must take care of others in need. The downturn in the Michigan economy has made an agency like Christian Neighbors essential and it has built a reputation throughout our community as a place where you will be helped when you are in need.</p>
+
+      <h2 class="sm-heading">
+        Being Cooperative Neighbors
+      </h2>
+      <p>Christian Neighbors has built cooperative relationships with Religious, Private, and Governmental Agencies committed to helping those in need. The Christian Neighbor’s Director and staff serve on and lead various task forces throughout our county dealing with hunger, poverty, and homelessness. They have built resources and developed referrals that address all of those concerns, as people come to them with varied needs. When you look at the yearly reports of Christian Neighbors, it is amazing the amount of help they provide, both food and financially.</p>
+      
+      <h2 class="sm-heading">
+        Being Caring Neighbors
+      </h2>
+      <p>Christian Neighbors has demonstrated that our community cares about those in need. Christian Neighbors has also demonstrated that as a community works together, it can meet the needs that exist. People who go to Christian Neighbors for assistance are treated with caring, kindness and respect.</p>
+      
+      <h2 class="sm-heading">
+        Being Continuous Neighbors
+      </h2>
+      <p>Christian Neighbors has been working to meet the needs in the Otsego, Alamo, Plainwell, Cooper, and Martin areas since 1983. Having a facility located in the heart of this service area, Christian Neighbors is positioned to continue to meet the needs of this area for many years to come.</p>
+    </main>
+
+<!-- Staff Directory Anchor-->
+    <main id="staff">
+      <h1 class="lg-heading">
+        Our Board
+      </h1>
+      <div class="grid-container">
+        <div class="box">Board President: Bruce Haney</div>
+        <div class="box">Vice President: Laurie Krahn</div>
+        <div class="box">Secretary: Jane Adams</div>
+        <div class="box">Treasurer: Dorothy Cool</div>
+        <div class="box">Business Liason: Cyndi Trobeck</div>    
+        <div class="box">Facilities Management: Larry Hill</div>    
+        <div class="box">Education / Resources: Donna Doctor</div>    
+        <div class="box">Pastoral Adviser: Joe Shaler</div>    
+        <div class="box">Plainwell School Representative: Matt Montange</div>    
+        <div class="box">Otsego School Representative: Jeff Haase</div>    
+        <div class="box">Information Technology: Greg York</div>    
+        <div class="box">Human Resources: Edith Rietkerk</div>    
+        <div class="box">Executive Director: Terri Shaler</div>    
+      </div>
+
+        <h1 class="lg-heading">
+          Resource Development Team
+        </h1>
+      <div class="grid-container">
+        <div class="box">Laurie Krahn</div>    
+        <div class="box">Tim Kellogg</div>    
+        <div class="box">Edith Rietkerk</div>    
+        <div class="box">Kim Shafer</div>    
+        <div class="box">Terri Shaler</div>    
+        <div class="box">Cyndi Trobeck</div>    
+        <div class="box">Shannon Zabaldo</div>    
+        <div class="box">Kristen Gruell</div>    
+      </div>
+
+      <h1 class="lg-heading">
+        Finance Team
+      </h1>
+      <div class="grid-container">
+        <div class="box">Dorothy Cool</div>    
+        <div class="box">Donna Doctor</div>    
+        <div class="box">Bruce Haney</div>    
+        <div class="box">Larry Wilson</div>    
+        <div class="box">Todd Harrell</div>    
+      </div>      
+    </main>
+
+<!-- Employee Team Anchor-->
+    <main id="employees">
+      <h1 class="lg-heading">
+        Meet The Staff
+      </h1>
+
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="../dist/img/guy.jpg" alt="Terri Shaler" style="width:100%">
+            <div class="container">
+              <h2>Terri Shaler</h2>
+              <h3 class="sm-heading">Executive Director</h3>
+              <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+              <a href="mailto:https://www.christianneighbors.org">
+                tshaler@christianneigbors.org
+              </a>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="../dist/img/guy.jpg" alt="Mike" style="width:100%">
+            <div class="container">
+              <h2>Kristen Gruell</h2>
+              <h3 class="sm-heading">Official Title</h3>
+              <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+              <p>example@example.com</p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="../dist/img/guy.jpg" alt="John" style="width:100%">
+            <div class="container">
+              <h2>John Doe</h2>
+              <h3 class="sm-heading">Official Title</h3>
+              <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+              <p>example@example.com</p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="../dist/img/guy.jpg" alt="John" style="width:100%">
+            <div class="container">
+              <h2>John Doe</h2>
+              <h3 class="sm-heading">Official Title</h3>
+              <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+              <p>example@example.com</p>
+            </div>
+          </div>
+        </div>
+      </div> 
+    </main>
+
+
+
+    <script src="../dist/js/main.js"></script>
   </body>
+
+  <footer>
+    <div class="footerInfo">
+      <div class="ftLeft">
+        <h2>Address</h2>
+        <p>282 12th Street Plainwell, MI 49080 PO Box 53</p>
+        <h2>Phone</h2>
+        <p>1-269-685-4166</p>
+        <h2>Fax</h2>
+        <p>1-269-685-4178</p>
+      </div>
+
+      <div class="ftCenter">
+        <div class="icons">
+          <p>Christian Neighbors, &copy;2020</p>
+          <a href="https://www.facebook.com/ChristianNeighborsPlainwell/">
+            <i class="fab fa-facebook fa-2x"></i>
+          </a>
+        </div>
+      </div>
+
+        <div class="ftRight">
+
+          <h2>Hours</h2>
+          <p><strong>Mon:</strong> 10-Noon, 4-6</p>
+          <p><strong>Tue:</strong> 10-Noon, 2-4</p>
+          <p><strong>Wed:</strong> Closed</p>
+          <p><strong>Thu:</strong> 3-5</p>
+          <p><strong>Fri:</strong> 9:30-11:30</p>
+        </div>
+      </div>
+    </div>
+  </footer>
 </html>
