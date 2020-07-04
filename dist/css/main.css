@@ -214,7 +214,7 @@ body {
   font-size: 1rem;
   line-height: 1.5; }
   body#bg-img {
-    background: url(/dist/img/banner.jpg);
+    background: url(../dist/img/banner.jpg);
     background-attachment: fixed;
     background-size: cover; }
     body#bg-img .overlay {
