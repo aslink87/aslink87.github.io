@@ -25,6 +25,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  list-style-type: none;
 }
 
 body {
@@ -38,6 +39,7 @@ body {
   font-size: 1rem;
   line-height: 1.5;
 }
+
 // Headings
 h1 {
   font-size: 2rem;
@@ -54,7 +56,7 @@ h3 {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
     letter-spacing: 0.2rem;
-    background: rgba(lighten($secondary-color, 40%), 0.15);
+    background: rgba(lighten($secondary-color, 30%), 0.1);
   }
 }
 a {
@@ -75,6 +77,20 @@ main {
   // height: 100%;
   min-height: calc(100vh - 60px);
 
+  //Lists Styling
+  ul {
+    background: rgba(lighten($secondary-color, 40%), 0.15);
+    padding: 10px;
+    width: 80%;
+    margin: auto;
+  }
+
+  ul li {
+    background: rgba(lighten($secondary-color, 40%), 0.1);
+    margin: 5px;
+  }
+
+  //Containers
   &#showcase {
     min-height: 400px;
     background-color: rgba($secondary-color, $background-opacity);
@@ -385,7 +401,7 @@ main {
   //Meet The Team
   &#employees {
     min-height: 300px;
-    padding-top: 4rem;
+    padding-top: 6rem;
     background-color: rgba($primary-color, $background-opacity);
     background-position: center;
     text-align: center;
@@ -425,6 +441,128 @@ main {
 
     .title {
       color: grey;
+    }
+  }
+
+  //Assistance Page
+  &#food {
+    min-height: 400px;
+    background-color: rgba($secondary-color, $background-opacity);
+    background-position: center;
+    text-align: center;
+    color: $primary-color;
+    padding-bottom: 7rem;
+
+    h1 {
+      margin-top: 3rem;
+      margin-bottom: 1rem;
+      text-align: center;
+      text-transform: capitalize;
+    }
+
+    h2 {
+      margin-top: 3rem;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      margin-bottom: 1rem;
+    }
+  }
+
+  &#finance {
+    min-height: 400px;
+    background-color: rgba($primary-color, $background-opacity);
+    background-position: center;
+    text-align: center;
+    color: $secondary-color;
+    padding-bottom: 4rem;
+
+    h1 {
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      text-align: center;
+      text-transform: capitalize;
+    }
+
+    h2 {
+      margin-top: 3rem;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      margin-bottom: 1rem;
+    }
+  }
+
+  &#veterans {
+    min-height: 400px;
+    background-color: rgba($secondary-color, $background-opacity);
+    background-position: center;
+    text-align: center;
+    color: $primary-color;
+    padding-bottom: 4rem;
+
+    h1 {
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      text-align: center;
+      text-transform: capitalize;
+    }
+  }
+
+  &#additional {
+    min-height: 400px;
+    background-color: rgba($primary-color, $background-opacity);
+    background-position: center;
+    text-align: center;
+    color: $secondary-color;
+    padding-bottom: 4rem;
+
+    h1 {
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      text-align: center;
+      text-transform: capitalize;
+    }
+
+    h2 {
+      margin-top: 3rem;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      font-size: 0.9rem;
+    }
+  }
+
+  //FAQ Page
+  &#faq {
+    min-height: 400px;
+    background-color: rgba($secondary-color, $background-opacity);
+    background-position: center;
+    text-align: center;
+    color: $primary-color;
+    padding-bottom: 4rem;
+
+    h1 {
+      margin-top: 3rem;
+      margin-bottom: 1rem;
+      text-align: center;
+      text-transform: capitalize;
+    }
+
+    h2 {
+      background-color: rgba(lighten($secondary-color, 50%), 0.05);
+      margin-bottom: 1rem;
+    }
+
+    p {
+      margin-bottom: 3rem;
     }
   }
 
