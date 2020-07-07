@@ -888,6 +888,13 @@ footer {
     main .sm-heading {
       font-size: 1rem;
       line-height: 1.3rem; }
+    main#tabs div.container {
+      padding: 0;
+      transform: scale(60%); }
+      main#tabs div.container div.icon div.caption {
+        transform: scale(150%); }
+    main#tabs div.content {
+      margin-top: -4rem; }
     main .box {
       font-size: 0.8rem;
       overflow: hidden; }
