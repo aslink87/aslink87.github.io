@@ -2,7 +2,7 @@
   position: fixed;
   z-index: 99;
   right: 35px;
-  top: 35px;
+  top: 38px;
   cursor: pointer;
   transition: all 0.5s ease-out; }
   .menu-btn .btn-line {
@@ -134,7 +134,6 @@
     text-align: center;
     padding: 0.45rem;
     margin: 0 0.25rem;
-    vertical-align: middle;
     color: #003768; }
     .navbar a:active {
       color: #d5d908; }
@@ -214,7 +213,7 @@ body {
   font-size: 1rem;
   line-height: 1.5; }
   body#bg-img {
-    background: url(../dist/img/banner.jpg);
+    background: url(../img/banner.jpg);
     background-attachment: fixed;
     background-size: cover; }
     body#bg-img .overlay {
@@ -243,7 +242,8 @@ h3 {
     background: rgba(2, 136, 255, 0.1); }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #fff; }
 
 main {
   padding: 4rem;
@@ -255,7 +255,8 @@ main {
     margin: auto; }
   main ul li {
     background: rgba(53, 160, 255, 0.1);
-    margin: 5px; }
+    margin: 5px;
+    padding: 10px; }
   main#showcase {
     min-height: 400px;
     background-color: rgba(0, 55, 104, 0.9);
@@ -595,6 +596,69 @@ main {
       margin-bottom: 1rem; }
     main#faq p {
       margin-bottom: 3rem; }
+  main#legacy {
+    min-height: 400px;
+    background-color: rgba(0, 55, 104, 0.9);
+    background-position: center;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 4rem; }
+    main#legacy h1 {
+      margin-top: 3rem;
+      margin-bottom: 1rem;
+      text-align: center;
+      text-transform: capitalize; }
+    main#legacy h2 {
+      background-color: rgba(104, 184, 255, 0.05);
+      margin-bottom: 1rem; }
+    main#legacy p {
+      margin-bottom: 3rem; }
+  main#overview {
+    min-height: 400px;
+    background-color: rgba(0, 55, 104, 0.9);
+    background-position: center;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 7rem; }
+    main#overview h1 {
+      margin-top: 3rem;
+      margin-bottom: 1rem;
+      text-align: center;
+      text-transform: capitalize; }
+    main#overview h2 {
+      margin-top: 3rem;
+      margin-bottom: 0.5rem; }
+    main#overview p {
+      margin-bottom: 1rem; }
+    main#overview a {
+      color: #fff;
+      text-decoration: underline; }
+  main#videos {
+    min-height: 400px;
+    background-color: rgba(255, 255, 255, 0.9);
+    background-position: center;
+    text-align: center;
+    color: #003768;
+    padding-bottom: 4rem; }
+    main#videos h1 {
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      text-align: center;
+      text-transform: capitalize; }
+    main#videos h2 {
+      margin-top: 3rem;
+      margin-bottom: 0.5rem; }
+    main#videos p {
+      margin-bottom: 2rem; }
+    main#videos div.playlist {
+      padding: 56.35% 0 0 0;
+      position: relative; }
+      main#videos div.playlist .iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%; }
   main .about-info {
     display: grid;
     grid-gap: 30px;
@@ -658,7 +722,8 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  bottom: 0; }
+  bottom: 0;
+  border-top: 3px solid #003768; }
   footer .footerInfo {
     width: 80%; }
   footer .ftLeft {
@@ -697,7 +762,8 @@ footer {
   background: transparent;
   cursor: pointer;
   user-select: none;
-  color: #003768; }
+  color: #003768;
+  text-decoration: none; }
   .btn:hover .btnTxt, .btn-dark:hover .btnTxt, .btn-light:hover .btnTxt {
     box-shadow: inset 2px 2px 8px white, inset -2px -2px 12px rgba(255, 255, 255, 0.5), inset 2px 2px 4px rgba(255, 255, 255, 0.1), inset 2px 2px 8px rgba(0, 0, 0, 0.3); }
   .btn .btnTxt, .btn-dark .btnTxt, .btn-light .btnTxt {
@@ -756,9 +822,18 @@ footer {
   main {
     align-items: center;
     text-align: center; }
-    main .lg-heading {
+    main h1.lg-heading {
       line-height: 1;
-      margin-bottom: 1rem; }
+      margin-bottom: 1rem;
+      font-size: 2rem; }
+    main h2.sm-heading {
+      font-size: 1rem;
+      line-height: 1.3rem; }
+    main ul {
+      width: 100%;
+      line-height: 1.3rem; }
+    main p {
+      line-height: 1.3rem; }
   ul.menu-nav,
   div.menu-branding {
     float: none;
@@ -787,24 +862,55 @@ footer {
     grid-template-columns: repeat(2, 1fr); }
   .navbar h1 {
     display: none; }
+  .navbar div.logoBx {
+    transform: scale(80%); }
   .navbar button {
-    margin-right: 35%; }
+    margin-right: 35%;
+    margin-top: 5px; }
   .navbar ul {
     display: none; } }
 
 @media screen and (max-width: 500px) {
   div.branding {
     display: none; }
+  .navbar a {
+    padding: 0;
+    margin-right: 0; }
+  div.logoBx {
+    transform: scale(80%); }
   main {
-    padding: 2rem; }
+    padding: 4rem 2rem 2rem 2rem; }
     main #home h1 {
       margin-top: 10vh; }
     main .lg-heading {
       margin-top: 1rem;
       font-size: 5rem; }
+    main .sm-heading {
+      font-size: 1rem;
+      line-height: 1.3rem; }
     main .box {
-      font-size: 0.6rem; }
-  footer {
+      font-size: 0.8rem;
+      overflow: hidden; }
+    main#staff div.grid-container div.box {
+      padding: 10px; }
+    main#employees div.row div.column {
+      float: left;
+      width: 100%;
+      margin-bottom: 16px;
+      padding: 0 8px; }
+    main#veterans div.imgBx {
+      display: none; }
+  div.icon p {
     font-size: 0.8rem; }
+  div.icon i.fas {
+    transform: scale(0.8); }
+  footer {
+    font-size: 0.7rem; }
+    footer div.ftCenter p {
+      display: none; }
+    footer div.ftCenter div.icons {
+      background: transparent; }
+    footer div.ftCenter i.fab {
+      color: #003768; }
   .projects {
     grid-template-columns: 1fr; } }
