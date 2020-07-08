@@ -879,6 +879,7 @@ footer {
     margin-right: 0; }
   .navbar button {
     margin-right: 30%;
+    top: 5px;
     padding-left: 0; }
   div.logoBx {
     transform: scale(80%); }
