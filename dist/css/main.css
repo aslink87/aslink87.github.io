@@ -22,7 +22,7 @@
 
 .menu {
   position: fixed;
-  top: 5.5rem;
+  top: 5rem;
   width: 100%;
   opacity: 0.9;
   visibility: hidden;
@@ -109,10 +109,11 @@
   justify-content: space-between;
   width: 100%;
   z-index: 98;
-  padding: 0rem 2rem;
+  padding: 0rem 0rem;
   top: 0;
   opacity: 0.9;
   transition: 0.4sec;
+  height: 5rem;
   border-bottom: 3px solid #003768; }
   .navbar button {
     top: 0.5rem; }
@@ -292,8 +293,8 @@ main {
         position: absolute;
         top: 0;
         left: 0;
-        width: 100%;
-        height: 100%;
+        max-width: 100%;
+        height: auto;
         transform-origin: top;
         transform-style: preserve-3d;
         transition: 0.5s;
@@ -876,6 +877,9 @@ footer {
   .navbar a {
     padding: 0;
     margin-right: 0; }
+  .navbar button {
+    margin-right: 30%;
+    padding-left: 0; }
   div.logoBx {
     transform: scale(80%); }
   main {
@@ -888,16 +892,22 @@ footer {
     main .sm-heading {
       font-size: 1rem;
       line-height: 1.3rem; }
+    main#boxes div.box div.imgBx img {
+      width: 95%;
+      height: 400px; }
     main#tabs div.container {
-      padding: 0;
-      transform: scale(60%); }
-      main#tabs div.container div.icon div.iconBx {
-        min-width: 120px;
-        min-height: 120px; }
-      main#tabs div.container div.icon div.caption p {
-        display: none; }
+      padding: 0; }
+      main#tabs div.container div.icon {
+        transform: scale(90%); }
+        main#tabs div.container div.icon div.iconBx {
+          min-width: 110px;
+          min-height: 110px; }
+          main#tabs div.container div.icon div.iconBx i.fas {
+            transform: scale(70%); }
+        main#tabs div.container div.icon div.caption p {
+          display: none; }
     main#tabs div.content {
-      margin-top: -4rem; }
+      margin-top: -1rem; }
     main .box {
       font-size: 0.8rem;
       overflow: hidden; }

@@ -136,6 +136,11 @@
       padding: 0;
       margin-right: 0;
     }
+
+    button {
+      margin-right: 30%;
+      padding-left: 0;
+    }
   }
 
   div.logoBx {
@@ -158,14 +163,31 @@
       line-height: 1.3rem;
     }
 
+    &#boxes {
+      div.box {
+        div.imgBx {
+          img {
+            width: 95%;
+            height: 400px;
+          }
+        }
+      }
+    }
+
     &#tabs {
       div.container {
         padding: 0;
-        transform: scale(60%);
+
         div.icon {
+          transform: scale(90%);
+
           div.iconBx {
-            min-width: 120px;
-            min-height: 120px;
+            min-width: 110px;
+            min-height: 110px;
+
+            i.fas {
+              transform: scale(70%);
+            }
           }
 
           div.caption {
@@ -177,7 +199,7 @@
       }
 
       div.content {
-        margin-top: -4rem;
+        margin-top: -1rem;
       }
     }
 
